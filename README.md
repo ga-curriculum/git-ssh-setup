@@ -13,7 +13,7 @@ Open a new terminal in your workspace and execute the following commands.
 
 1. Let's create a new SSH key using `key-keygen` tool.
 
-> **NOTE:** Be sure to change the email with the email associated with your GA GitHub enterprise account.
+> **NOTE:** Be sure to change the email with the email associated with your GitHub account.
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -49,7 +49,7 @@ We'll first need to get our public key using the following command:
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Copy this key to your clipboard and then navigate to the [GA github](https://git.generalassemb.ly/)
+Copy this key to your clipboard and then navigate to the [GitHub](https://github.com/)
 
 Navigate to your GitHub settings and add a new SSH key. This process is detailed in [Github's documentation for adding an SSH key to your account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
